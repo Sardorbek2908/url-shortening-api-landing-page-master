@@ -1,0 +1,65 @@
+/* descktop */
+@media (max-width: 1440px) {}
+
+@media (max-width: 1320px) {}
+
+@media (max-width: 1290px) {}
+
+@media (max-width: 1170px) {}
+
+@media (max-width: 1140px) {}
+
+@media (max-width: 1024px) {}
+
+/* Tab */
+@media (max-width: 992px) {}
+
+@media (max-width: 850px) {}
+
+/* Mobile */
+@media (max-width: 768px) {}
+
+@media (max-width: 684px) {}
+
+/* mobile < 576 */
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 412px) {}
+
+@media (max-width: 375px) {
+    .site-header {
+        padding-top: 40px;
+        padding-bottom: 23px;
+    }
+    /* .d-flex {
+        position: fixed;
+        flex-direction: column;
+    } */
+
+    .site-title {
+        width: 327px;
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.05px;
+    }
+    .site-text {
+        width: 327px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.123px;
+    }
+    .site-hero__img {
+        right: unset;
+        left: 0;
+        width: 100%;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 320px) {}
